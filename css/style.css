@@ -379,3 +379,130 @@ body {
 /*add end*/
 
 
+/*link start*/
+#link {
+    padding: 180px 0;
+    background: #121118;
+}
+
+.link-text h1 {
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 70px;
+    width: 445px;
+    padding-bottom: 38px;
+}
+
+.link-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 25px;
+    font-weight: 400;
+    width: 500px;
+    line-height: 37px;
+}
+
+.link-text p span {
+    color: white;
+    font-weight: 700;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-block {
+    width: 562px;
+    height: 350px;
+    background: #1d1c27;
+    border-radius: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+
+.link-block a div {
+    height: 280px;
+    width: 75px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+    transition: .5s;
+}
+
+.link-block a div:hover {
+    transform: translateY(-50px);
+    border-radius: 20px;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 33px 24px rgba(255, 255, 255, 0.22);
+    -moz-box-shadow: 0px 0px 33px 24px rgba(255, 255, 255, 0.22);
+    box-shadow: 0px 0px 33px 24px rgba(255, 255, 255, 0.22);
+}
+
+.link-block a div ion-icon {
+    color: white;
+    font-size: 27px;
+}
+
+.youtube {
+    background: #f4010f;
+    border-radius: 20px 0 0 0;
+    right: 440px;
+}
+
+
+.instagram {
+    background: #d0005d;
+    border-radius: 20px 0 0 0;
+    right: 380px;
+}
+
+
+.twitch {
+    background: #7a3ee5;
+    border-radius: 20px 0 0 0;
+    right: 320px;
+}
+
+
+.tik-tok {
+    background: #000001;
+    border-radius: 20px 0 0 0;
+    right: 260px;
+}
+
+
+.twitter {
+    background: #00a5fc;
+    border-radius: 20px 0 0 0;
+    right: 195px;
+}
+
+
+.linkedin {
+    background: #016395;
+    border-radius: 20px 0 0 0;
+    right: 130px;
+}
+
+
+.mail {
+    background: #24515a;
+    border-radius: 20px 0 0 0;
+    right: 65px;
+}
+
+.whatsapp {
+    background: #3dba55;
+    border-radius: 20px 0 30px 0;
+    right: 0;
+}
+
+/*link end*/
+
